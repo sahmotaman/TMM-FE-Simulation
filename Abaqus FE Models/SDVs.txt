@@ -1,0 +1,26 @@
+Abaqus Standard (2D)
+SDV1		 cell mobile   dislocation density 		[m^(-2)]
+SDV2		 cell immobile dislocation density 		[m^(-2)]
+SDV3		 wall immobile dislocation density 		[m^(-2)]
+SDV4-SDV7    elastic strain tensor (voigt notation) [-]
+SDV8-SDV11   plastic strain tensor (voigt notation) [-]
+SDV12		 equivalent plastic strain 				[-]
+SDV13		 equivalent plastic strain rate 		[s^(-1)]
+
+------------------------------------------------------------
+Abaqus Standard (3D)
+SDV1		 cell mobile   dislocation density 		[m^(-2)]
+SDV2		 cell immobile dislocation density 		[m^(-2)]
+SDV3		 wall immobile dislocation density 		[m^(-2)]
+SDV4-SDV9    elastic strain tensor (voigt notation) [-]
+SDV10-SDV15  plastic strain tensor (voigt notation) [-]
+SDV16		 equivalent plastic strain 				[-]
+SDV17		 equivalent plastic strain rate 		[s^(-1)]
+
+------------------------------------------------------------
+Abaqus Explicit (2D and 3D)
+SDV1		 cell mobile   dislocation density 		[m^(-2)]
+SDV2 		 cell immobile dislocation density 		[m^(-2)]
+SDV3		 wall immobile dislocation density 		[m^(-2)]
+SDV4		 accumulated equivalent plastic strain 	[-]
+SDV5		 equivalent plastic strain rate 		[-]
