@@ -8,9 +8,9 @@ For TMM-FE Simulation:
 
 - Copy the suitable "*.cae" and/or "*.inp" file(s) from "Abaqus FE Models" folder to the working directory.
 
-- Copy the "material_data.inp" from "TMM Material Properties - 20MnCr5" folder to the working directory.
+- Copy "material_data.inp" from "TMM Material Properties - 20MnCr5" folder to the working directory.
 
-- Here, Fortran scripts including Abaqus user material subroutines have been written using free-format Fortran 90 syntax. Therefore, for error-free compilation, flag "free" needs to be added to the Fortran compiler options in the Abaqus default's environment file. The other way is to copy the suitable "abaqus_v6.env" file from the folder "Abaqus Environment Files" to the working directory.
+- Here, Fortran scripts including Abaqus user material subroutines have been written using free-format Fortran 90 syntax. Therefore, for error-free compilation, flag "free" needs to be added to the Fortran compiler options in the Abaqus default environment file. The other way is to copy suitable "abaqus_v6.env" file from the folder "Abaqus Environment Files" to the working directory.
 
 - In case of using Linux operating system, the extension of corresponding Abaqus material subroutine file located in "Abaqus User Material Subroutines" folder from "*.for" needs to renamed to "*.f".
 
@@ -26,7 +26,7 @@ Further notes:
 
 - The solution-dependent variables (SDVs) are described in "Abaqus FE Models/SDVs.txt".
 
-- The FE models and material subroutines are created for Abaqus 2017. Thus, "*.cae" files may only be opened by Abaqus CAE 2017 or later versions of Abaqus CAE. Moreover, in order to use Abaqus subroutines, suitable version of Intel Fortran Compiler must be installed and linked with the Abaqus.
+- The FE models and material subroutines are created for Abaqus 2017. Thus, "*.cae" files may only be opened by Abaqus CAE 2017 or later versions of Abaqus CAE. Moreover, in order to use Abaqus subroutines, suitable version of Intel Fortran Compiler must be installed and linked to Abaqus.
 
 
 S. Amir H. Motaman
