@@ -10,10 +10,12 @@
 !    Microstructural constitutive model for polycrystal viscoplasticity
 !    in cold and warm regimes based on continuum dislocation dynamics.
 !    Journal of the Mechanics and Physics of Solids 122, 205–243.
-!    doi: 10.1016/j.jmps.2018.09.002
+!    doi: https://doi.org/10.1016/j.jmps.2018.09.002
 !
 !    Motaman, S.A.H.; Schacht K.; Haase, C.; Prahl, U.; 2019.
-!    Thermo-micro-mechanical simulation of bulk metal forming processes.
+!    Thermo-micro-mechanical simulation of metal forming processes.
+!    International Journal of Solids and Structures.
+!    doi: https://doi.org/10.1016/j.ijsolstr.2019.05.028
 !=======================================================================
 
 !-----------------------------------------------------------------------
