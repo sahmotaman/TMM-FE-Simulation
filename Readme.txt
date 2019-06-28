@@ -1,5 +1,5 @@
 #TMM-FE-Simulation
-This repository is created for sharing Abaqus material subroutines and finite element (FE) models for thermo-micro-mechanical (TMM) FE simulation of bulk metal forming processes.
+This repository is created for sharing Abaqus material subroutines and finite element (FE) models for thermo-micro-mechanical (TMM) FE simulation of metal forming processes.
 
 
 For TMM-FE Simulation:
