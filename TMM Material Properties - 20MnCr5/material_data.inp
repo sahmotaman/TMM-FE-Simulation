@@ -1,0 +1,100 @@
+!=======================================================================
+! User Material Subroutine for Isotropic Elasto-Visco-Plasticity
+! CDD-based Material Model
+!
+! Author: Seyed Amir Hossein Motaman
+! Steel Institute (IEHK), RWTH Aachen University
+!
+! References:
+!    Motaman, S.A.H.; Prahl, U.; 2019.
+!    Microstructural constitutive model for polycrystal viscoplasticity
+!    in cold and warm regimes based on continuum dislocation dynamics.
+!    Journal of the Mechanics and Physics of Solids 122, 205–243.
+!    doi: https://doi.org/10.1016/j.jmps.2018.09.002
+!
+!    Motaman, S.A.H.; Schacht K.; Haase, C.; Prahl, U.; 2019.
+!    Thermo-micro-mechanical simulation of metal forming processes.
+!    International Journal of Solids and Structures.
+!    doi: https://doi.org/10.1016/j.ijsolstr.2019.05.028
+!=======================================================================
+
+!-----------------------------------------------------------------------
+! material/constitutive parameters input file
+!
+! assign new material via: ( material_name: material_index_number )
+! assign new material parameter via: parameter_name	parameter_value
+!-----------------------------------------------------------------------
+
+( 20MnCr5: 1 )
+T_0				19.99			C
+nu_0			0.28887
+r_nu			0.0385
+s_nu			1.0
+G_0				8.25e+04		MPa
+r_G				-0.095
+s_G				1.46
+rho_0			1.00e+12		m^-2
+rho_hat_cm0		22.57367863
+rho_hat_ci0		26.42776249
+rho_hat_wi0		0.923438936
+alpha_c0		0.100154849
+r_G_alpha_c		-0.083575741
+s_G_alpha_c		2.873529553
+alpha_w0		0.472596314
+r_G_alpha_w		-0.028854534
+s_G_alpha_w		2.545154685
+sigma_v00		318.84			MPa
+r_v				-0.337615909
+s_v				0.511558827
+m_v0			0.027
+r_mv			0.0785
+s_mv			5.0
+eps_bar_dot_0	0.01			s^-1
+M				3.0
+b				2.55E-10		m
+kappa			2.0
+c_gn_cm0		629.7080394
+c_an_cm0		0.149236323
+r_an_cm			0.054728237
+s_an_cm			8.672549331
+m_an_cm0		0.0
+r_m_an_cm		0.0
+s_m_an_cm		0.0
+c_an_ci0		0.013305374
+r_an_ci			2.058137023
+s_an_ci			0.898865326
+m_an_ci0		0.0
+r_m_an_ci		0.0
+s_m_an_ci		0.0
+c_an_wi0		0.031215878
+r_an_wi			0.204526593
+s_an_wi			4.028259214
+m_an_wi0		0.0
+r_m_an_wi		0.0
+s_m_an_wi		0.0
+c_ac_ci0		0.498948916
+c_ac_wi0		0.128071920
+c_tr_cm0		1.418449574
+r_tr_cm			3.968012489
+s_tr_cm			1.559308493
+m_tr_cm0		0.0
+r_m_tr_cm		0.0
+s_m_tr_cm		0.0
+c_nc_wi0		0.001553463
+r_nc_wi			6.158738506
+s_nc_wi			4.807555088
+m_nc_wi0		0.0
+r_m_nc_wi		0.0
+s_m_nc_wi		0.0
+c_rm_ci0		0.226100432	
+r_rm_ci			5.091043494	
+s_rm_ci			5.599961125	
+m_rm_ci0		0.0
+r_m_rm_ci		0.0
+s_m_rm_ci		0.0
+c_rm_wi0		0.021718544
+r_rm_wi			2.063101738
+s_rm_wi			3.430685754
+m_rm_wi0		0.0
+r_m_rm_wi		0.0
+s_m_rm_wi		0.0
